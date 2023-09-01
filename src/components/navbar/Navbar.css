@@ -1,0 +1,88 @@
+.main-nav {
+  font-family: "Cardo", serif;
+  background-color: rgba(0, 0, 0, 0.536);
+  /* background-color: #181717; */
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+.nav-section-1 {
+  box-shadow: 2px 2px 12px black;
+}
+
+ul > li {
+  padding: 0.5rem;
+}
+ul > li > a {
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-shadow: 2px 2px 2px black;
+}
+
+ul > li > a:hover {
+  border-bottom: 2px solid #369;
+}
+
+.Logo {
+  /* height: 10vh; */
+  width: 18vw;
+}
+/* Initially hide the list items */
+.list-items {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-in-out;
+}
+/* Show the list items when the "show" class is applied */
+.list-items.hidden {
+  display: block;
+  max-height: 1000px;
+  animation-name: ShowListData;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-delay: 0ms;
+}
+
+@keyframes ShowListData {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* For device size more than mobile phone */
+
+@media (min-width: 640px) {
+  .nav-section-1 {
+    box-shadow: none;
+  }
+  .list-items {
+    max-height: none;
+  }
+  ul li a {
+    font-size: 0.8rem;
+    text-shadow: 2px 2px 2px black;
+  }
+}
+
+@media (min-width: 768px) {
+  ul li a {
+    font-size: 1rem;
+    text-shadow: 2px 2px 2px black;
+  }
+}
+@media (min-width: 1024px) {
+  .main-nav {
+    padding: 10px 50px;
+  }
+  ul li a {
+    font-size: 1.25rem;
+    text-shadow: 2px 2px 2px black;
+  }
+  .btn-sm {
+    width: 15rem;
+  }
+}
