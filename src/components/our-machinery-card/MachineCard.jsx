@@ -8,7 +8,7 @@ import Typography from "@mui/material/Typography";
 
 function MachineCard(props) {
   return (
-    <div className="my-12">
+    <div className="my-12 sm:w-[48%] cursor-pointer">
       <Card
         sx={{
           width: "80%",
@@ -27,11 +27,12 @@ function MachineCard(props) {
             overflow: "hidden",
             transform: ".5s ease-out;",
             rotate: "360deg",
-            width: "100vw",
+            width: "100%",
           }}
           image={props.img}
           title="green iguana"
         />
+
         <CardContent sx={{ backgroundColor: "#adadad" }}>
           <Typography gutterBottom variant="h5" component="div">
             {props.name}

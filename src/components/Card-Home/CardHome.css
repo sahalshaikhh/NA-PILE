@@ -1,0 +1,18 @@
+@media (min-width: 1024px) {
+  .images-main-headig {
+    color: #adadad;
+    text-shadow: 2px 2px 2px black;
+    height: 30rem;
+    border-radius: 12px;
+    margin-inline: 2rem;
+    box-shadow: 2px 2px 20px #adadad;
+  }
+  .style-div {
+    border-radius: 12px;
+  }
+  .style-div:hover {
+    background-color: rgba(112, 101, 101, 0.771);
+    color: black;
+    text-shadow: 2px 2px 2px white;
+  }
+}

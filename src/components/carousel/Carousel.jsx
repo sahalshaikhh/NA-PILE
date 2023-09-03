@@ -16,18 +16,18 @@ function MyCarousel() {
   };
 
   return (
-    <div className="w-[85%]">
+    <div className="w-[85%] xl:h-[20rem]">
       <Slider {...carouselSettings}>
         {/* <Carousel> */}
-        <div className="bg-[#0000004f] text-white p-4 w-[90%] m-auto">
+        <div className="bg-[#0000004f] text-white p-4 w-[90%] m-auto sm:py-16 ">
           <h1
-            className="text-xl font-extrabold text-start my-2"
+            className="text-xl font-extrabold text-start my-2 sm:text-2xl lg:text-4xl"
             style={{ fontFamily: "Nunito", textShadow: "2px 2px 2px black" }}
           >
             Suresh Bhai Shah
           </h1>
           <p
-            className="text-xs font-thin my-2 text-start"
+            className="text-xs font-thin my-2 text-start sm:text-sm lg:text-xl"
             style={{ fontFamily: "Jaldi", textShadow: "2px 2px 2px black" }}
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima,
@@ -36,15 +36,15 @@ function MyCarousel() {
             in, sequi vel!
           </p>
         </div>
-        <div className="bg-[#0000004f] text-white p-4 w-[90%] m-auto">
+        <div className="bg-[#0000004f] text-white p-4 w-[90%] m-auto sm:py-16 ">
           <h1
-            className="text-xl font-extrabold text-start my-2"
+            className="text-xl font-extrabold text-start my-2 sm:text-2xl lg:text-4xl"
             style={{ fontFamily: "Nunito", textShadow: "2px 2px 2px black" }}
           >
             Raju Seth
           </h1>
           <p
-            className="text-xs font-thin my-2 text-start"
+            className="text-xs font-thin my-2 text-start  sm:text-sm lg:text-xl"
             style={{ fontFamily: "Jaldi", textShadow: "2px 2px 2px black" }}
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, qui
@@ -53,7 +53,7 @@ function MyCarousel() {
             natus totam eligendi!
           </p>
         </div>
-        <div className="bg-[#0000004f] text-white p-4 w-[90%] m-auto">
+        <div className="bg-[#0000004f] text-white p-4 w-[90%] m-auto sm:py-16 sm:text-2xl lg:text-4xl">
           <h1
             className="text-xl font-extrabold text-start my-2"
             style={{ fontFamily: "Nunito", textShadow: "2px 2px 2px black" }}
@@ -61,7 +61,7 @@ function MyCarousel() {
             Sahal Developer
           </h1>
           <p
-            className="text-xs font-thin my-2 text-start"
+            className="text-xs font-thin my-2 text-start sm:text-sm lg:text-xl"
             style={{ fontFamily: "Jaldi", textShadow: "2px 2px 2px black" }}
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima,
@@ -72,7 +72,7 @@ function MyCarousel() {
             veritatis perferendis!
           </p>
         </div>
-        <div className="bg-[#0000004f] text-white p-4 w-[90%] m-auto">
+        <div className="bg-[#0000004f] text-white p-4 w-[90%] m-auto sm:py-16 sm:text-2xl lg:text-4xl">
           <h1
             className="text-xl font-extrabold text-start my-2"
             style={{ fontFamily: "Nunito", textShadow: "2px 2px 2px black" }}
@@ -80,7 +80,7 @@ function MyCarousel() {
             Khan Bhai
           </h1>
           <p
-            className="text-xs font-thin my-2 text-start"
+            className="text-xs font-thin my-2 text-start sm:text-sm lg:text-xl "
             style={{ fontFamily: "Jaldi", textShadow: "2px 2px 2px black" }}
           >
             Lorem ipsum dolor Lorem ipsum dolor sit amet, consectetur

@@ -31,7 +31,7 @@ function Navbar() {
         <div className="nav-section-1 flex justify-between px-8 items-center text-center ">
           {/* Logo */}
           <motion.div
-            className="logo text-3xl font-bold sm:w-[10vw] md:w-[12vw] lg:w-[10vw] xl:w-[5vw]"
+            className="logo text-3xl font-bold sm:w-[10vw] md:w-[12vw] lg:w-[10vw] xl:w-[5vw] cursor-pointer"
             initial={{ opacity: 0, x: -100 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 1 }}
