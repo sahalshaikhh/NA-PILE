@@ -26,7 +26,7 @@ function Navbar() {
         className="main-nav sm:flex "
         initial={{ opacity: 0, y: -100 }} // Initial state of the Navbar
         animate={{ opacity: 1, y: 0 }} // Final state when the Navbar appears
-        transition={{ duration: 1 }}
+        transition={{ duration: 1, delay: 2 }}
       >
         <div className="nav-section-1 flex justify-between px-8 items-center text-center ">
           {/* Logo */}

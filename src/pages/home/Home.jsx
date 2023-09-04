@@ -14,7 +14,7 @@ import CountDown from "../../components/countDown/CountDown";
 function Home() {
   const containerVariants = {
     hidden: { opacity: 0, y: 100 },
-    visible: { opacity: 1, y: 0, transition: { duration: 2, delay: 0 } },
+    visible: { opacity: 1, y: 0, transition: { duration: 1, delay: 0 } },
   };
 
   const headingVariants = {
@@ -25,7 +25,7 @@ function Home() {
   return (
     <>
       {/* Start of Main container */}
-      <div className="main-container xl:bg-black cursor-pointer">
+      <div className="main-container xl:bg-black cursor-pointer flex-col">
         <VisibilitySensor partialVisibility>
           {({ isVisible }) => (
             <motion.div
@@ -47,6 +47,7 @@ function Home() {
           )}
         </VisibilitySensor>
       </div>
+
       {/* End of Main container */}
 
       {/* Start of Service Section  */}

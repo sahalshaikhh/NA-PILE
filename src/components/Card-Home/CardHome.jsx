@@ -8,9 +8,9 @@ function CardHome(props) {
       <div
         className={`${props.img} images-main-headig text-black flex justify-center items-center font-bold text-2xl w-[90%] m-auto sm:m-auto sm:mb-4 cursor-pointer`}
       >
-        <div className="style-div px-4 text-center flex-col relative0">
+        <div className="style-div px-4 text-center flex-col relative">
           <h1 className="font-black">{props.Heading}</h1>
-          <div className="hidden hidden-know-more  absolute bottom-10">
+          <div className="hidden hidden-know-more absolute bottom-10">
             <Button
               className=""
               size="small"
