@@ -10,6 +10,8 @@ import SANY_SR155 from "../../assets/photos/SANY_SR155.jpg";
 import INDIAN_MAIT_120 from "../../assets/photos/INDIAN_MAIT_120.jpeg";
 import SOILMEC_SR_40_MAIT from "../../assets/photos/SOILMEC_SR_40_MAIT.webp";
 import CountDown from "../../components/countDown/CountDown";
+import Navbar from "../../components/navbar/Navbar";
+import Footer from "../../components/footer/Footer";
 
 function Home() {
   const containerVariants = {
@@ -24,6 +26,9 @@ function Home() {
 
   return (
     <>
+      <div className="header">
+        <Navbar bgColor="rgba(0, 0, 0, 0.536)" />
+      </div>
       {/* Start of Main container */}
       <div className="main-container xl:bg-black cursor-pointer flex-col">
         <VisibilitySensor partialVisibility>
@@ -175,6 +180,10 @@ function Home() {
         </VisibilitySensor>
       </div>
       {/* End of Machinery List */}
+
+      {/* Footer starts */}
+      <Footer />
+      {/* Footer Ends */}
     </>
   );
 }

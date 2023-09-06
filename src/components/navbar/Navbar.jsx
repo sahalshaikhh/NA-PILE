@@ -5,8 +5,9 @@ import "./Navbar.css";
 import PrecisionManufacturingIcon from "@mui/icons-material/PrecisionManufacturing";
 import PrecisionManufacturingTwoToneIcon from "@mui/icons-material/PrecisionManufacturingTwoTone";
 import { Button } from "@mui/material";
+import { Link } from "react-router-dom";
 
-function Navbar() {
+function Navbar(props) {
   const [icon, setIcon] = useState(true);
 
   const hamBurgerClicked = () => {
@@ -23,10 +24,11 @@ function Navbar() {
   return (
     <>
       <motion.div
-        className="main-nav sm:flex "
+        className="main-nav sm:flex"
+        style={{ backgroundColor: props.bgColor }}
         initial={{ opacity: 0, y: -100 }} // Initial state of the Navbar
         animate={{ opacity: 1, y: 0 }} // Final state when the Navbar appears
-        transition={{ duration: 1, delay: 2 }}
+        transition={{ duration: 1, delay: 0 }}
       >
         <div className="nav-section-1 flex justify-between px-8 items-center text-center ">
           {/* Logo */}
@@ -61,19 +63,19 @@ function Navbar() {
         <div className="list-items text-center sm:flex sm:w-full sm:justify-evenly sm:text-xs md:text-base lg:text-xl xl:text-2xl">
           <ul className="nav-lists gap-8 mt-4 sm:flex sm:gap-4 sm:justify-center sm:items-center sm:mt-0 ">
             <li>
-              <a href="/">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="/">About</a>
+              <Link to="/aboutUs">About</Link>
             </li>
             <li>
-              <a href="/">Service</a>
+              <a href="/service">Service</a>
             </li>
             <li>
-              <a href="/">Gallery</a>
+              <a href="/gallery">Gallery</a>
             </li>
             <li>
-              <a href="/">Strength</a>
+              <a href="/strength">Strength</a>
             </li>
           </ul>
           <div className="btn pt-2 pb-8 sm:mx-4 sm:p-0 sm:flex sm:justify-center sm:items-center lg:hidden">
@@ -120,8 +122,8 @@ function Navbar() {
             Contact Us
           </Button>
         </div>
-        {/* NavList Ends */}
       </motion.div>
+      {/* NavList Ends */}
     </>
   );
 }

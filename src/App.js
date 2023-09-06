@@ -1,21 +1,18 @@
 import './App.css';
-import Navbar from './components/navbar/Navbar';
+// Import Routes from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/home/Home';
-import Footer from "./components/footer/Footer";
+import About from './pages/aboutUs/About';
 
 function App() {
   return (
-    <div className="App">
-      <div className="navbar">
-        <Navbar />
-      </div>
-      <Home />
-      {/* Footer Start */}
-      <div className="footer">
-        <Footer />
-      </div>
-      {/* Footer Ends */}
-    </div>
+    <Router>
+      <Routes> {/* Replace Switch with Routes */}
+        <Route path="/" element={<Home />} />
+        <Route path="/aboutUs" element={<About />} />
+        {/* <Route path="/contact" element={<Contact />} /> */}
+      </Routes>
+    </Router>
   );
 }
 
