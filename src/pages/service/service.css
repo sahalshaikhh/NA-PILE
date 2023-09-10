@@ -1,0 +1,21 @@
+.hero-setion-service {
+  background-image: url("../../assets/photos/service-hero.jpg");
+  background-position: 50%;
+  background-size: cover;
+  font-family: "Cardo", serif;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 640px) {
+  .hero-setion-service {
+    height: 60vh;
+  }
+}
+@media (min-width: 1280px) {
+  .hero-setion-service {
+    height: 60vh;
+    background-position: center 70%;
+  }
+}

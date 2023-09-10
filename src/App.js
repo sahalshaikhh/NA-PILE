@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/home/Home';
 import About from './pages/aboutUs/About';
+import Service from './pages/service/Service';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Routes> {/* Replace Switch with Routes */}
         <Route path="/" element={<Home />} />
         <Route path="/aboutUs" element={<About />} />
+        <Route path="/service" element={<Service />} />
         {/* <Route path="/contact" element={<Contact />} /> */}
       </Routes>
     </Router>

@@ -65,9 +65,14 @@ div.data h1:hover {
   background-repeat: no-repeat;
   background-position: 50%;
 }
-
+.pic {
+  background-image: url("../../assets/photos/member_one.jpeg");
+  height: 50vh;
+  background-size: cover;
+  width: auto;
+}
 @media (min-width: 1024px) {
   video {
-    height: 65svh;
+    height: 65vh;
   }
 }

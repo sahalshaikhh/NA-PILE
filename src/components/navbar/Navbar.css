@@ -43,6 +43,9 @@ ul > li > a:hover {
   animation-iteration-count: 1;
   animation-delay: 0ms;
 }
+.active {
+  border-bottom: 1px solid #369;
+}
 
 @keyframes ShowListData {
   0% {

@@ -87,7 +87,7 @@ function About() {
               className="w-full"
             >
               <h1
-                className="legacy text-center font-semibold text-lg px-4 pt-8 mb-8 sm:text-4xl 
+                className="legacy text-center font-semibold text-lg px-4 pt-8 mb-8 sm:text-4xl cursor-pointer
               lg:text-5xl  lg:mt-28 lg:mb-28 lg:bg-[#181717] lg:py-8 lg:underline
               xl:text-4xl  xl:my-24 "
               >
@@ -122,7 +122,7 @@ function About() {
                 <h1 className="team-members-heading mt-8 text-center font-semibold text-3xl mb-8 sm:text-4xl lg:text-5xl  lg:mt-28 lg:mb-28 lg:bg-[#181717] lg:py-8  xl:text-4xl  xl:my-24 ">
                   Team Members
                 </h1>
-                <div className="xl:flex">
+                <div className="">
                   <AboutCard
                     photoSet="flex-row-reverse"
                     img={MemberPic}
@@ -163,17 +163,17 @@ function About() {
               animate={isVisible ? "visible" : "hidden"}
               variants={headingVariants}
             >
-              <h1 className="team-members-heading mt-8 text-center font-semibold text-3xl mb-8 sm:text-4xl lg:text-5xl  lg:mt-28 lg:mb-28 lg:bg-[#181717] lg:py-8  xl:text-4xl  xl:my-24 ">
+              <h1 className="team-members-heading mt-8 text-center font-semibold text-3xl mb-8 sm:text-4xl lg:text-5xl  lg:mt-28 lg:mb-28 lg:bg-[#181717] lg:py-8  xl:text-4xl  xl:my-24  ">
                 CLIENTS
               </h1>
             </motion.div>
           )}
         </VisibilitySensor>
-        <div className="flex bg-white py-8 my-8 justify-between px-4">
-          <div className="adani h-[5vh] w-[20vw]"></div>
-          <div className="goyal h-[5vh] w-[20vw]"></div>
-          <div className="shilp h-[5vh] w-[20vw]"></div>
-          <div className="L-T h-[5vh] w-[20vw]"></div>
+        <div className="flex bg-white py-8 mt-8 mb-24 justify-between px-4 xl:p-20 cursor-pointer">
+          <div className="adani h-[5vh] w-[20vw] xl:h-[8vh]"></div>
+          <div className="goyal h-[5vh] w-[20vw] xl:h-[8vh] "></div>
+          <div className="shilp h-[5vh] w-[20vw] xl:h-[8vh] "></div>
+          <div className="L-T h-[5vh] w-[20vw] xl:h-[8vh] "></div>
         </div>
       </div>
       {/* about us section ends   */}

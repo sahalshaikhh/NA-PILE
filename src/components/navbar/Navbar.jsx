@@ -5,7 +5,7 @@ import "./Navbar.css";
 import PrecisionManufacturingIcon from "@mui/icons-material/PrecisionManufacturing";
 import PrecisionManufacturingTwoToneIcon from "@mui/icons-material/PrecisionManufacturingTwoTone";
 import { Button } from "@mui/material";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Navbar(props) {
   const [icon, setIcon] = useState(true);
@@ -24,7 +24,7 @@ function Navbar(props) {
   return (
     <>
       <motion.div
-        className="main-nav sm:flex"
+        className="main-nav z-50 sm:flex "
         style={{ backgroundColor: props.bgColor }}
         initial={{ opacity: 0, y: -100 }} // Initial state of the Navbar
         animate={{ opacity: 1, y: 0 }} // Final state when the Navbar appears
@@ -66,16 +66,16 @@ function Navbar(props) {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/aboutUs">About</Link>
+              <NavLink to="/aboutUs">About</NavLink>
             </li>
             <li>
-              <a href="/service">Service</a>
+              <NavLink to="/service">Service</NavLink>
             </li>
             <li>
-              <a href="/gallery">Gallery</a>
+              <NavLink to="/gallery">Gallery</NavLink>
             </li>
             <li>
-              <a href="/strength">Strength</a>
+              <NavLink to="/strength">Strength</NavLink>
             </li>
           </ul>
           <div className="btn pt-2 pb-8 sm:mx-4 sm:p-0 sm:flex sm:justify-center sm:items-center lg:hidden">
