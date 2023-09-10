@@ -98,6 +98,7 @@ function About() {
         </VisibilitySensor>
         <div className="into-owner-business">
           <AboutCard
+            bgColor={"#fafafa"}
             img={OwnerPic}
             name="Our Story:"
             job=" Founded by Abdul Rauf Shaikh in 1995, NA-Pile began as a dream
@@ -124,6 +125,7 @@ function About() {
                 </h1>
                 <div className="">
                   <AboutCard
+                    bgColor={"#fafafa"}
                     photoSet="flex-row-reverse"
                     img={MemberPic}
                     name="Aadil Shaikh"
@@ -138,6 +140,7 @@ function About() {
             remain at the forefront of the construction industry."
                   />
                   <AboutCard
+                    bgColor={"#fafafa"}
                     img={MemberPicTwo}
                     name="Nadeem Shaikh"
                     job="Nadeem Shaikh is a vital asset to NA Pile, following in the footsteps of his family's 

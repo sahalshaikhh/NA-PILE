@@ -1,0 +1,19 @@
+.gallery {
+  background-image: url("../../assets/photos/gallery.jpg");
+  height: 30vh;
+  background-position: 50%;
+  background-size: contain;
+  text-shadow: 2px 2px 2px white, 2px 2px 2px black;
+}
+
+@media (min-width: 640px) {
+  .gallery {
+    height: 60vh;
+  }
+}
+@media (min-width: 1280px) {
+  .gallery {
+    height: 60vh;
+    background-position: center 70%;
+  }
+}

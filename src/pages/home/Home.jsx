@@ -145,7 +145,7 @@ function Home() {
                 <div className="sm:flex sm:gap-4">
                   <MachineCard
                     name="SANY SR235"
-                    containt="  SANY SR235 C10 rotary drilling rig has a maximum pile diameter of
+                    containt="SANY SR235 C10 rotary drilling rig has a maximum pile diameter of
             2,000 mm and a maximum pile depth of 68/54 m. It has a
             high-efficiency rotary drive, ensuring smooth and uninterrupted
             operations. It has options for friction Kelly and interlocking kelly
