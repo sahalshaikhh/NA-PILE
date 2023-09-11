@@ -6,6 +6,10 @@ import SANY_SR155 from "../../assets/photos/SANY_SR155.jpg";
 import INDIAN_MAIT_120 from "../../assets/photos/INDIAN_MAIT_120.jpeg";
 import SOILMEC_SR_40_MAIT from "../../assets/photos/SOILMEC_SR_40_MAIT.webp";
 import AboutCard from "../../components/aboutCard/AboutCard";
+import Tractor from "../../assets/photos/Tractor.jpg";
+import Tmr_rig from "../../assets/photos/Tmr_rig.jpg";
+import escort_hydra from "../../assets/photos/escort_hydra.jpg";
+import JCB from "../../assets/photos/JCB.jpg";
 import Footer from "../../components/footer/Footer";
 
 function Gallery() {
@@ -64,36 +68,33 @@ function Gallery() {
         <AboutCard
           bgColor="#fafafa"
           photoSet="flex-row-reverse"
-          img={SANY_SR235}
-          name="SANY SR235"
+          img={Tractor}
+          name="TRACTOR"
           job="
-    The Sany SR235 is a powerful and versatile heavy-duty excavator, renowned for its robust engine, impressive excavation capacity, and operator-centric design. With a strong and efficient diesel engine, it excels in various construction and earthmoving tasks, offering exceptional digging depth and reach. The spacious, ergonomic cabin prioritizes operator comfort and safety, equipped with advanced controls and amenities. Its durability, owing to sturdy construction and high-quality materials, ensures longevity even in challenging work environments. Furthermore, its adaptability, facilitated by a range of attachments and accessories, allows it to handle diverse construction projects with precision and efficiency, making it a valuable asset for construction professionals."
+          A tractor is a versatile agricultural vehicle designed for various farming tasks. Typically equipped with a powerful engine, it provides the necessary horsepower to perform essential agricultural activities such as plowing, tilling, seeding, and hauling. Tractors are often fitted with specialized attachments and implements, allowing farmers to efficiently cultivate land and manage crops. In addition to agricultural applications, tractors are also employed in construction, forestry, and transportation, making them indispensable machines across a range of industries due to their versatility and reliability."
         />{" "}
         <AboutCard
           bgColor="#fafafa"
           lgresponse="lg:flex-row-reverse"
           photoSet="flex-row-reverse"
-          img={SANY_SR235}
-          name="SANY SR235"
-          job="
-  The Sany SR235 is a powerful and versatile heavy-duty excavator, renowned for its robust engine, impressive excavation capacity, and operator-centric design. With a strong and efficient diesel engine, it excels in various construction and earthmoving tasks, offering exceptional digging depth and reach. The spacious, ergonomic cabin prioritizes operator comfort and safety, equipped with advanced controls and amenities. Its durability, owing to sturdy construction and high-quality materials, ensures longevity even in challenging work environments. Furthermore, its adaptability, facilitated by a range of attachments and accessories, allows it to handle diverse construction projects with precision and efficiency, making it a valuable asset for construction professionals."
-        />{" "}
+          img={Tmr_rig}
+          name="TMR RIG"
+          job="A TMR (Total Mixed Ration) Rig is a specialized construction designed for the efficient mixing and distribution of feed for livestock in the agricultural industry. These rigs typically consist of a large mixing chamber where various ingredients like hay, grains, silage, and supplements are combined to create a balanced and homogeneous feed mixture. The TMR rig is equipped with powerful augers or blades to ensure thorough mixing, and it often has the capability to dispense the mixed feed directly into feeding troughs or trailers, streamlining the feeding process and ensuring that animals receive a consistent and nutritionally balanced diet. This technology plays a vital role in modern livestock farming, optimizing animal nutrition and ultimately improving herd health and productivity."
+        />
         <AboutCard
           bgColor="#fafafa"
           photoSet="flex-row-reverse"
-          img={SANY_SR235}
-          name="SANY SR235"
-          job="
-          The Sany SR235 is a powerful and versatile heavy-duty excavator, renowned for its robust engine, impressive excavation capacity, and operator-centric design. With a strong and efficient diesel engine, it excels in various construction and earthmoving tasks, offering exceptional digging depth and reach. The spacious, ergonomic cabin prioritizes operator comfort and safety, equipped with advanced controls and amenities. Its durability, owing to sturdy construction and high-quality materials, ensures longevity even in challenging work environments. Furthermore, its adaptability, facilitated by a range of attachments and accessories, allows it to handle diverse construction projects with precision and efficiency, making it a valuable asset for construction professionals."
+          img={escort_hydra}
+          name="ESCORT_HYDRA"
+          job="The Escort Hydra is a versatile and powerful construction equipment designed for a wide range of material handling tasks. Typically equipped with a hydraulic crane or material handling attachment, it can efficiently lift, transport, and place heavy loads, making it invaluable in construction, infrastructure development, and industrial settings. The Escort Hydra's robust design, coupled with its hydraulic capabilities, ensures precision, safety, and efficiency in various material handling applications, making it a valuable asset for heavy-duty construction projects."
         />{" "}
         <AboutCard
           bgColor="#fafafa"
           photoSet="flex-row-reverse"
           lgresponse="lg:flex-row-reverse"
-          img={SANY_SR235}
-          name="SANY SR235"
-          job="
-        The Sany SR235 is a powerful and versatile heavy-duty excavator, renowned for its robust engine, impressive excavation capacity, and operator-centric design. With a strong and efficient diesel engine, it excels in various construction and earthmoving tasks, offering exceptional digging depth and reach. The spacious, ergonomic cabin prioritizes operator comfort and safety, equipped with advanced controls and amenities. Its durability, owing to sturdy construction and high-quality materials, ensures longevity even in challenging work environments. Furthermore, its adaptability, facilitated by a range of attachments and accessories, allows it to handle diverse construction projects with precision and efficiency, making it a valuable asset for construction professionals."
+          img={JCB}
+          name="JCB"
+          job="JCB is a renowned British multinational corporation specializing in the production of construction, agricultural, and industrial equipment. Founded in 1945, JCB is globally recognized for its distinctive yellow machinery, including backhoes, excavators, loaders, and more. Known for innovation and reliability, JCB machines are trusted for their durability and have become industry standards. With a commitment to sustainability, JCB continues to lead the heavy equipment sector with environmentally friendly solutions and serves customers worldwide through an extensive network of dealers and distributors."
         />
       </div>
       <hr className="text-[#adadad] my-8 w-[50%] mx-auto" />

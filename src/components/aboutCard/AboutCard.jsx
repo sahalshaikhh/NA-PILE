@@ -18,10 +18,10 @@ function AboutCard(props) {
           />
         </div>
         <div className="data p-4 sm:w-[200%]">
-          <h1 className="text-2xl pb-4 font-bold font-[Jaldi] text-center sm:text-start sm:text-4xl">
+          <h1 className="text-2xl pb-4 font-bold font-[Jaldi] text-center sm:text-start sm:text-4xl lg:text-4xl">
             {props.name}
           </h1>
-          <p className="text-justify font-[jaldi] text-sm sm:text-base">
+          <p className="text-justify font-[jaldi] text-sm sm:text-base lg:text-xl">
             {props.job}
           </p>
         </div>
