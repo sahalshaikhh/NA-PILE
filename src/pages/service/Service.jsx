@@ -12,6 +12,8 @@ import dmc from "../../assets/photos/DMC.jpg";
 import Compound_Wall_Piling from "../../assets/photos/compound_wall_pile.jpg";
 import diaphragm_wall_pile from "../../assets/photos/diaphragm_wall_pile.jpg";
 import Footer from "../../components/footer/Footer";
+import WhatsaapComponent from "../../components/whatsaapCom/WhatsaapComponent";
+import { Link } from "react-router-dom";
 
 function Service() {
   return (
@@ -19,7 +21,7 @@ function Service() {
       {/* Nav Section Start */}
       <Navbar bgColor="#181717" />
       {/* Nav Section Ends */}
-
+      <WhatsaapComponent />
       <div className="service-container-main mt-14 sm:mt-[5.8rem] lg:mt-[7.8rem] xl:mt-[6rem] ">
         <div className="hero-setion-service relative -z-10">
           <h1 className="service-heading absolute top-8 left-8 text-4xl text-black font-[Cardo] sm:left-28 sm:text-[5rem] sm:top-16 lg:left-52 xl:left-60 xl:text-8xl xl:top-4">
@@ -47,7 +49,7 @@ function Service() {
               },
             }}
           >
-            Contact Us
+            <Link to="/contactUs">Contact Us</Link>
           </Button>
         </div>
         <div className="xl-screens-responsive xl:flex xl:flex-col">

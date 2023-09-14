@@ -9,6 +9,7 @@ import OwnerPic from "../../assets/photos/OwnerOfNaPile.jpeg";
 import MemberPic from "../../assets/photos/member_one.jpeg";
 import MemberPicTwo from "../../assets/photos/MemberPicTwo.jpeg";
 import AboutCard from "../../components/aboutCard/AboutCard";
+import WhatsaapComponent from "../../components/whatsaapCom/WhatsaapComponent";
 
 function About() {
   const containerVariants = {
@@ -27,16 +28,12 @@ function About() {
   };
   return (
     <div>
+      <WhatsaapComponent />
       {/* Navbar */}
       <div className="navbar mt-12 sm:mt-20 md:mt-[5.5rem] lg:mt-[5.8rem]">
         <Navbar bgColor="#181717" />
       </div>
       {/* Navbar ends */}
-
-      {/* 
-      width: 90%;
-    font-size: 3rem;
-    line-height: 1.3; */}
 
       {/* about us section starts  */}
       <div className="Containent flex justify-center items-center flex-col">

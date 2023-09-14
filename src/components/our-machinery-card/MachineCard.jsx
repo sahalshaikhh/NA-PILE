@@ -5,6 +5,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import { Link } from "react-router-dom";
 
 function MachineCard(props) {
   return (
@@ -30,7 +31,7 @@ function MachineCard(props) {
             width: "100%",
           }}
           image={props.img}
-          title="green iguana"
+          title="Machinery"
         />
 
         <CardContent sx={{ backgroundColor: "#adadad" }}>
@@ -46,13 +47,13 @@ function MachineCard(props) {
             size="small"
             sx={{ color: "black", backgroundColor: "white" }}
           >
-            Contact Us
+            <Link to="/contactUs">Contact Us</Link>
           </Button>
           <Button
             size="small"
             sx={{ color: "black", backgroundColor: "white" }}
           >
-            Know More
+            <Link to="/gallery">Know More</Link>
           </Button>
         </CardActions>
       </Card>

@@ -1,0 +1,59 @@
+/* ContactForm.css */
+
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-family: "Cardo";
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: black;
+  font-family: "Cardo";
+}
+
+textarea {
+  min-height: 100px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.Submit-btn {
+  border: 1px solid white;
+  padding-inline: 6rem;
+}
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .contact-form-container {
+    max-width: 100%;
+  }
+}

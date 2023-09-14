@@ -33,8 +33,8 @@ function Footer() {
             <h1 className="text-xs py-4 text-center lg:text-2xl lg:py-4">
               Network
             </h1>
-            <ul class="flex flex-col items-start list-none px-4">
-              <spanc className="text-xs ">(Click to connect)</spanc>
+            <ul className="flex flex-col items-start list-none px-4">
+              <span className="text-xs ">(Click to connect)</span>
               <li className="flex gap-2">
                 <img src={InstaIcon} alt="" className="w-4 lg:w-8" />
                 <span className="text-xs flex justify-center items-center lg:text-base">
@@ -65,7 +65,7 @@ function Footer() {
             <h1 className="text-xs py-4 text-center  lg:text-2xl lg:py-4">
               Contact Now
             </h1>
-            <ul class="flex flex-col items-start list-none">
+            <ul className="flex flex-col items-start list-none">
               <li className="flex gap-2">
                 <PhoneAndroid />
                 <span className="text-xs flex justify-center items-center lg:text-base ">

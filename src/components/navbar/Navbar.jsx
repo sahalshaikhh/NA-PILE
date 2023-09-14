@@ -79,6 +79,32 @@ function Navbar(props) {
             </li>
           </ul>
           <div className="btn pt-2 pb-8 sm:mx-4 sm:p-0 sm:flex sm:justify-center sm:items-center lg:hidden">
+            <Link to="/contactUs">
+              <Button
+                size="small"
+                variant="outlined"
+                sx={{
+                  backgroundColor: "#adadad", // Set background color to black
+                  fontFamily: "Cardo",
+                  // paddingBlock: "5px",
+                  color: "black", // Set text color to white
+                  border: "1px solid black",
+                  "&:hover": {
+                    backgroundColor: "black", // Set background color to white on hover
+                    color: "#adadad", // Set text color to black on hover
+                    border: "none",
+                  },
+                }}
+              >
+                {" "}
+                Contact Us
+              </Button>
+            </Link>
+          </div>
+        </div>
+
+        <div className="btn-sm pt-2 pb-8 max-sm:hidden max-md:hidden max-lg:hidden lg:w-[10%]  lg:flex  lg:justify-center lg:items-center lg:p-0 lg:text-xl  text-black">
+          <Link to="/contactUs">
             <Button
               size="small"
               variant="outlined"
@@ -98,29 +124,7 @@ function Navbar(props) {
               {" "}
               Contact Us
             </Button>
-          </div>
-        </div>
-
-        <div className="btn-sm pt-2 pb-8 max-sm:hidden max-md:hidden max-lg:hidden lg:w-[10%]  lg:flex  lg:justify-center lg:items-center lg:p-0 lg:text-xl  text-black">
-          <Button
-            size="small"
-            variant="outlined"
-            sx={{
-              backgroundColor: "#adadad", // Set background color to black
-              fontFamily: "Cardo",
-              // paddingBlock: "5px",
-              color: "black", // Set text color to white
-              border: "1px solid black",
-              "&:hover": {
-                backgroundColor: "black", // Set background color to white on hover
-                color: "#adadad", // Set text color to black on hover
-                border: "none",
-              },
-            }}
-          >
-            {" "}
-            Contact Us
-          </Button>
+          </Link>
         </div>
       </motion.div>
       {/* NavList Ends */}

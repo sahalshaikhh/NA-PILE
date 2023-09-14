@@ -1,6 +1,7 @@
 import { Button } from "@mui/material";
 import React from "react";
 import "./CardHome.css";
+import { Link } from "react-router-dom";
 
 function CardHome(props) {
   return (
@@ -27,8 +28,7 @@ function CardHome(props) {
                 },
               }}
             >
-              {" "}
-              Contact Us
+              <Link to="/contactUs">Contact Us</Link>
             </Button>
           </div>
         </div>

@@ -11,13 +11,16 @@ import Tmr_rig from "../../assets/photos/Tmr_rig.jpg";
 import escort_hydra from "../../assets/photos/escort_hydra.jpg";
 import JCB from "../../assets/photos/JCB.jpg";
 import Footer from "../../components/footer/Footer";
+import WhatsaapComponent from "../../components/whatsaapCom/WhatsaapComponent";
 
 function Gallery() {
   return (
     <>
+      <WhatsaapComponent />
       <div className="nav mb-14">
         <Navbar bgColor="#181717" />
       </div>
+
       <div className="gallery text-[#181717] flex justify-center items-center flex-col text-5xl font-[Cardo] font-extrabold gap-2 md:text-8xl xl:gap-0 ">
         <h1 className="xl:bg-slate-50 xl:p-4">PRODUCT </h1>
         <span className="xl:bg-red-200 xl:p-2">GALLERY</span>

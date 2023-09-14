@@ -1,0 +1,52 @@
+.strangth-bg {
+  background-image: url("../../assets/photos/Strength.jpg");
+  height: 30vh;
+  background-position: 50%;
+  background-size: cover;
+}
+div.strangth-bg h2 {
+  background-color: #00000080;
+  padding: 1rem;
+  font-size: 3rem;
+  font-family: Cardo;
+  text-decoration: 2px 2px 2px black;
+  text-shadow: 2px 2px 2px black, 2px 2px 2px black;
+  border-radius: 12px 0px 12px 0px;
+  letter-spacing: 2px;
+}
+/* Add this CSS to your strangth.css file */
+.strangth-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.strangth-list-item {
+  width: 50%; /* Display 2 items per row on larger screens */
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  font-family: "Cardo";
+}
+
+@media (max-width: 620px) {
+  .strangth-list-item {
+    width: 100%; /* Display 1 item per row on smaller screens */
+  }
+}
+@media (min-width: 768px) {
+  .strangth-list-item {
+    padding: 20px;
+    font-size: 1.2rem;
+  }
+  .strangth-list {
+    padding-left: 2rem;
+  }
+  .strangth-bg {
+    height: 60vh;
+  }
+}
+@media (min-width: 1024px) {
+  .strangth-list {
+    padding-left: 10rem;
+  }
+}

@@ -12,6 +12,7 @@ import SOILMEC_SR_40_MAIT from "../../assets/photos/SOILMEC_SR_40_MAIT.webp";
 import CountDown from "../../components/countDown/CountDown";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
+import WhatsaapComponent from "../../components/whatsaapCom/WhatsaapComponent";
 
 function Home() {
   const containerVariants = {
@@ -30,6 +31,7 @@ function Home() {
         <Navbar bgColor="rgba(0, 0, 0, 0.536)" />
       </div>
       {/* Start of Main container */}
+      <WhatsaapComponent />
       <div className="main-container xl:bg-black cursor-pointer flex-col">
         <VisibilitySensor partialVisibility>
           {({ isVisible }) => (

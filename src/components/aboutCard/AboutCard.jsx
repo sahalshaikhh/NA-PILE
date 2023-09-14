@@ -21,7 +21,7 @@ function AboutCard(props) {
           <h1 className="text-2xl pb-4 font-bold font-[Jaldi] text-center sm:text-start sm:text-4xl lg:text-4xl">
             {props.name}
           </h1>
-          <p className="text-justify font-[jaldi] text-sm sm:text-base lg:text-xl">
+          <p className="text-justify font-[Lato] text-xs sm:text-base lg:text-lg">
             {props.job}
           </p>
         </div>
