@@ -5,6 +5,7 @@ import FbIcon from "../../assets/logo/facebook.png";
 import TwitterIcon from "../../assets/logo/twitter.png";
 import MailIcon from "../../assets/logo/gmail.png";
 import {
+  EmailOutlined,
   MailLockOutlined,
   PhoneAndroid,
   PhoneBluetoothSpeaker,
@@ -82,7 +83,7 @@ function Footer() {
                 <MailLockOutlined />
                 <span className="text-xs flex justify-center items-center lg:text-base">
                   <a href="mailto:napile12@gmail.com" className="lg:text-base">
-                    napile12@gmail.com
+                    na.pile1995@gmail.com
                   </a>
                 </span>
               </li>
@@ -96,6 +97,21 @@ function Footer() {
               Office: Near Muhammadi Masjid Jamiyat Ahle Hadees, Juhapura,
               Muhammadi Masjid Rd, Makarba, Ahmedabad, Gujarat 380051
             </p>
+          </div>
+        </div>
+        <hr className="my-4" />
+        <div className=" mx-auto mb-4 cursor-pointer text-xs text-center flex flex-col gap-1 md:text-sm ">
+          <div className="developers bg-white text-black font-[Cardo] px-2 rounded">
+            This Website is Developed by - CodeYuwa Developers <br />
+          </div>
+          <div className="contact-developer">CONTACT - 7041928040 &nbsp;</div>
+          <div className="mail-developer">
+            <a
+              href="mailto:shaikhsahal4@gmail.com"
+              className="developer-contact"
+            >
+              <EmailOutlined /> MAIL - shaikhsahal4@gmail.com
+            </a>
           </div>
         </div>
       </div>

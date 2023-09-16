@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { Puff } from "react-loader-spinner";
+// import "react-loader-spinner/dist/puff/css/react-spinner-loader.css";
+
 import { motion } from "framer-motion";
 import VisibilitySensor from "react-visibility-sensor";
 import "./home.css";
@@ -15,6 +18,17 @@ import Footer from "../../components/footer/Footer";
 import WhatsaapComponent from "../../components/whatsaapCom/WhatsaapComponent";
 
 function Home() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate loading delay (e.g., fetching data)
+    const timer = setTimeout(() => {
+      setLoading(false); // Set loading state to false when loading is complete
+    }, 1000); // Adjust the delay as needed
+
+    return () => clearTimeout(timer); // Clean up the timer on unmount
+  }, []);
+
   const containerVariants = {
     hidden: { opacity: 0, y: 100 },
     visible: { opacity: 1, y: 0, transition: { duration: 1, delay: 0 } },
@@ -25,8 +39,12 @@ function Home() {
     visible: { opacity: 1, y: 0, transition: { duration: 0.5, delay: 0 } },
   };
 
-  return (
-    <>
+  return loading ? (
+    <div className="flex justify-center items-center h-[100vh]">
+      <Puff type="Puff" color="#00BFFF" height={100} width={100} />
+    </div>
+  ) : (
+    <div>
       <div className="header">
         <Navbar bgColor="rgba(0, 0, 0, 0.536)" />
       </div>
@@ -186,7 +204,7 @@ function Home() {
       {/* Footer starts */}
       <Footer />
       {/* Footer Ends */}
-    </>
+    </div>
   );
 }
 

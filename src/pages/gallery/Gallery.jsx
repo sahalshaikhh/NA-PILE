@@ -73,8 +73,7 @@ function Gallery() {
           photoSet="flex-row-reverse"
           img={Tractor}
           name="TRACTOR"
-          job="
-          A tractor is a versatile agricultural vehicle designed for various farming tasks. Typically equipped with a powerful engine, it provides the necessary horsepower to perform essential agricultural activities such as plowing, tilling, seeding, and hauling. Tractors are often fitted with specialized attachments and implements, allowing farmers to efficiently cultivate land and manage crops. In addition to agricultural applications, tractors are also employed in construction, forestry, and transportation, making them indispensable machines across a range of industries due to their versatility and reliability."
+          job="A piling tractor is a specialized construction vehicle primarily used for the installation of piles in foundation and infrastructure projects. These machines are equipped with a powerful engine and a hydraulic hammer or pile driver attachment, enabling them to drive piles deep into the ground with precision and force. Piling tractors are essential for creating stable foundations in various construction applications, including buildings, bridges, and offshore structures. They are known for their efficiency, accuracy, and ability to handle different types of piles, making them crucial equipment in the construction industry."
         />{" "}
         <AboutCard
           bgColor="#fafafa"
