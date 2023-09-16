@@ -6,7 +6,7 @@ import SANY_SR155 from "../../assets/photos/SANY_SR155.jpg";
 import INDIAN_MAIT_120 from "../../assets/photos/INDIAN_MAIT_120.jpeg";
 import SOILMEC_SR_40_MAIT from "../../assets/photos/SOILMEC_SR_40_MAIT.webp";
 import AboutCard from "../../components/aboutCard/AboutCard";
-import Tractor from "../../assets/photos/Tractor.jpg";
+import Tractor from "../../assets/photos/Tractor.jpeg";
 import Tmr_rig from "../../assets/photos/Tmr_rig.jpg";
 import escort_hydra from "../../assets/photos/escort_hydra.jpg";
 import JCB from "../../assets/photos/JCB.jpg";

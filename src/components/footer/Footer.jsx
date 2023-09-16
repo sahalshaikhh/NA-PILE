@@ -37,25 +37,43 @@ function Footer() {
             <ul className="flex flex-col items-start list-none px-4">
               <span className="text-xs ">(Click to connect)</span>
               <li className="flex gap-2">
-                <img src={InstaIcon} alt="" className="w-4 lg:w-8" />
+                <img src={InstaIcon} alt="" className="w-4 lg:w-6" />
                 <span className="text-xs flex justify-center items-center lg:text-base">
-                  Instagram
+                  <a
+                    href="https://instagram.com/n.a.pile_1995?igshid=NGVhN2U2NjQ0Yg=="
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Instagram
+                  </a>
                 </span>
               </li>
               <li className="flex gap-2">
-                <img src={FbIcon} alt="" className="w-4 lg:w-8" />
+                <img src={FbIcon} alt="" className="w-4 lg:w-6" />
                 <span className="text-xs flex justify-center items-center lg:text-base ">
-                  Facebook
+                  <a
+                    href="https://www.facebook.com/w1709s?mibextid=LQQJ4d"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Facebook
+                  </a>
                 </span>
               </li>
               <li className="flex gap-2">
-                <img src={TwitterIcon} alt="" className="w-4 lg:w-8" />
+                <img src={TwitterIcon} alt="" className="w-4 lg:w-6" />
                 <span className="text-xs flex justify-center items-center lg:text-base ">
-                  Twitter
+                  <a
+                    href="https://twitter.com/Nadeem_2005"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Twitter
+                  </a>
                 </span>
               </li>
               <li className="flex gap-2">
-                <img src={MailIcon} alt="" className="w-4 lg:w-8" />
+                <img src={MailIcon} alt="" className="w-4 lg:w-6" />
                 <span className="text-xs flex justify-center items-center lg:text-base ">
                   <a href="mailto:napile12@gmail.com">Mail Us</a>
                 </span>
