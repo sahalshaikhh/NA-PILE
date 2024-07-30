@@ -130,7 +130,7 @@ function Home() {
               variants={headingVariants}
             >
               <h1 className="what-we-offer text-center font-semibold text-3xl mb-8 sm:text-4xl lg:text-5xl  lg:mt-28 lg:mb-28 lg:bg-[#181717] lg:py-8  xl:text-4xl  xl:my-24 ">
-                Client Testimonials
+                Client Testimonialsss
               </h1>
             </motion.div>
           )}
