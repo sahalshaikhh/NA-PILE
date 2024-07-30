@@ -18,7 +18,7 @@ import Footer from "../../components/footer/Footer";
 import WhatsaapComponent from "../../components/whatsaapCom/WhatsaapComponent";
 
 function Home() {
-  const [loadin, setLoading] = useState(true);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     // Simulate loading delay (e.g., fetching data)
