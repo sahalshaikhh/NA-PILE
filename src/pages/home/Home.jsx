@@ -89,7 +89,7 @@ function Home() {
               lg:text-5xl  lg:mt-28 lg:mb-28 lg:bg-[#181717] lg:py-8 
               xl:text-4xl  xl:my-24 "
               >
-                What We Offer
+                What We Offer's
               </h1>
             </motion.div>
           )}
